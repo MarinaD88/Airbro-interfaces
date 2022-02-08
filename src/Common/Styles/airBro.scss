@@ -1,15 +1,13 @@
 @import "constants";
 
+
 .home-page {
   display: flex;
-  .cover-image-wrap {
-    flex: 1;
-  }
 }
 
 .cover-image {
   width: 330px;
-  margin-left: 150px;
+  margin-right: 200px;
 }
 
 .air-bro-wrap {
@@ -17,7 +15,7 @@
   font-family: $InterFontFamily;
   flex-direction: column;
   align-items: flex-start;
-  margin-bottom: 500px;
+  margin-bottom: 200px;
   flex: 1;
 
   .air-bro {
@@ -25,16 +23,18 @@
     line-height: 194px;
     color: #ffffff;
     font-weight: 600;
-    font-family: monospace;
+    font-family: 'Baloo Tamma 2', cursive;
   }
   .secondary-text {
     font-size: 24px;
     line-height: 32px;
     color: #FFFFFF;
     max-width: 500px;
+  
   }
   .drop-it-button {
-    padding: 12px 18px;
+    margin-top: 7ex;
+    padding: 12px 30px;
     background: #554cbf;
     min-width: 210px;
     cursor: pointer;
